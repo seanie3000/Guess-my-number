@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press Start 2P"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Guess My Number!</title>
+  </head>
+  <body>
+    <section class="section-container">
+      <div class="sub-container">
+        <div class="card">
+          <header class="header-container">
+            <img class="logo-image" src="images/logo2.png" alt="" />
+          </header>
+          <p class="p-color guess-message">Start Guessing</p>
+          <div class="numscore">?</div>
+          <main class="main-container">
+            <section>
+              <p class="p-color">Score : <span class="score">25</span></p>
+              <p class="p-color">
+                Highscore : <span class="highscore">0</span>
+              </p>
+              <p class="choose">( Choose between 1 - 25 )</p>
+            </section>
+            <section>
+              <input type="number" class="input" />
+              <div class="button-container">
+                <button class="btn check">Check!</button>
+                <button class="btn again">Again!</button>
+              </div>
+            </section>
+          </main>
+        </div>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>

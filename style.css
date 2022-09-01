@@ -1,0 +1,79 @@
+:root {
+  --color-custom-one: #1e0c51;
+  --color-custom-two: #2c298c;
+  --color-custom-three: #7155c6;
+  --color-custom-four: #ad6bdf;
+  --color-custom-five: #e287de;
+  --color-custom-six: #fcbce8;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+  font-family: 'Press Start 2P';
+  background-color: #1e0c51;
+}
+.section-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logo-image {
+  width: 500px;
+  height: 230px;
+  margin-bottom: 1rem;
+}
+.numscore {
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 1.5rem;
+  margin: auto;
+  width: 4rem;
+  background: white;
+  border: 2px solid white;
+  color: var(--color-custom-two);
+}
+
+.card {
+  /* border: 5px solid white; */
+  width: 500px;
+  text-align: center;
+  background-color: var(--color-custom-two);
+  border: 5px solid var(--color-custom-three);
+}
+.p-color {
+  color: white;
+  font-size: 1.2rem;
+}
+.choose {
+  font-size: 0.8rem;
+  color: white;
+}
+.input {
+  height: 5.5rem;
+  width: 8.5rem;
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 20px;
+  font-family: 'Press Start 2P';
+  color: var(--color-custom-two);
+}
+input:focus {
+  outline: none;
+}
+.btn {
+  font-family: 'Press Start 2P';
+  margin-bottom: 10px;
+  padding: 0.5rem;
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  background-color: white;
+  color: var(--color-custom-two);
+  cursor: pointer;
+}
